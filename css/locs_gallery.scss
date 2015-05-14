@@ -1,0 +1,40 @@
+figure.portrait {
+  display: inline-block;
+  vertical-align: top;
+  width: 90px;
+  margin: 0 10px 10px 10px;
+}
+figure.landscape{
+  display: inline-block;
+  vertical-align: top;
+  width: 120px;
+  margin: 0 10px 10px 10px;
+}
+
+figure img {
+  border: 1px solid #666;
+  background-color: #FFF;
+  padding: 4px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+  height: 90px;
+}
+#row1 {
+	 margin-left: auto;
+    margin-right: auto;
+      width: 70%;
+}
+#row2 {
+	 margin-left: auto;
+    margin-right: auto;
+      width: 70%;
+}
+#row3 {
+	 margin-left: auto;
+    margin-right: auto;
+      width: 70%; 
+}
+
+img:hover
+{
+  cursor: hand;   cursor: pointer;
+}

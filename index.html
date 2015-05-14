@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html ng-app="MyApp">
+<head>
+	<meta charset="utf-8">
+	<title>Loc Sculpting</title>
+	
+	<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	<link rel="stylesheet" href="styles/font.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/locs_guestbook.css">
+	<!-- link rel="import" href="header.html"> -->
+
+
+	<!-- script type="text/javascript" src="js/angular.min.1.2.10.js"></script> -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-messages.min.js"></script>
+	<script type="text/javascript" src="js/angular-route.js"></script>
+
+	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+	<!-- script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+	   <script src="https://cdn.firebase.com/js/client/2.2.2/firebase.js"></script>
+  <script src="https://cdn.firebase.com/libs/angularfire/1.0.0/angularfire.min.js"></script>
+
+
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+	<script type="text/javascript" src="app/app.js"></script>
+	<script type="text/javascript" src="app/controllers/controllers.js"></script>
+	<script type="text/javascript" src="app/controllers/contacts_controller.js"  ></script>
+	<script type="text/javascript" src="app/controllers/services_controller.js"></script>
+	<script type="text/javascript" src="app/controllers/guestbook_controller.js"></script>
+	<script type="text/javascript" src="app/controllers/services.js"></script>
+
+</head>
+<body>
+	
+	<header class="logo">
+   		 	<img src="images/loc_logo.jpg" alt="Loc Sculpting" width="80">
+   		 	<hgroup>
+				<h1>Loc Sculpting</h1>
+				<h2>A Manifestation of a Vision</h2>
+				</hgroup>
+    </header>
+
+	<!--nav class="navbar navbar-default navbar-fixed-top"> -->
+<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <!-- matches navbar items for responsive display  -->
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>    	
+        	</button>
+			<a class="navbar-brand" href="#/">Loc Sculpting</a>      
+        </div> <!-- end of navbar header -->
+
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+           <li><a id="menu-About" href="#/"  class="current">Home </a></li>
+	    	<li><a id="menu-Services" href="#/services">Services</a></li>
+	    	<!-- li><a id="menu-Gallery" href="loc_gallery.html">Gallery</a></li> -->
+	    	<li><a id="menu-Guestbook" href="#/guestbook">Guestbook</a></li>
+	    	<li><a id="menu-ContactUs" href="#/contacts">Contact Us</a></li> 
+	    </ul>
+        </div><!-- end of navbar-collapse -->
+      </div> <!-- end of div container -->
+    </nav>
+
+    <main ng-view>
+    </main>
+
+
+	
+	 
+</body>
+
+	<footer>&copy;  Copyright 2014 . Loc Sculpting. All right reserved</footer>
+
+</html>

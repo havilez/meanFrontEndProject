@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,gBAAiB;EACf,MAAM,EAAE,YAAY;;;AAGtB;6CAC8C;EAC5C,kBAAkB,EAAE,IAAI;EACxB,MAAM,EAAE,CAAC",
+"sources": ["locs_guestbook.scss"],
+"names": [],
+"file": "locs_guestbook.css"
+}

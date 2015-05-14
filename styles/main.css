@@ -1,0 +1,134 @@
+/* So the HTML5 structural tags work in older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\000032}}
+article, aside, figure, footer, header, nav, section {
+  display: block; }
+
+/* the styles for the elements */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\000036}}
+* {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000310}}
+html {
+  background-color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000315}}
+a:focus, a:hover {
+  font-style: italic; }
+
+/* the styles for the header */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000319}}
+header {
+  border-bottom: 3px solid #800000;
+  padding: 1.5em 0;
+  background-image: -moz-linear-gradient(30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+  background-image: -webkit-linear-gradient(30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+  background-image: -o-linear-gradient(30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%);
+  background-image: linear-gradient(30deg, #800000 0%, #fffded 30%, white 50%, #fffded 80%, #800000 100%); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000331}}
+header h1 {
+  color: #800000;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000335}}
+header h2 {
+  font-style: italic;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000341}}
+header img {
+  float: left;
+  padding: 0 30px;
+  width: 80px;
+  height: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000347}}
+.shadow {
+  text-shadow: 2px 2px 2px #800000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000351}}
+#loc_logo {
+  width: 80px;
+  height: 80px; }
+
+/* the styles for the navigation bar */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000358}}
+nav {
+  clear: left;
+  margin: 0;
+  padding: 0;
+  border-bottom: 3px solid #800000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000364}}
+nav ul {
+  margin-left: 0;
+  margin-bottom: .5em;
+  list-style: none;
+  padding: .5em 2em 0 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000370}}
+nav li {
+  display: inline;
+  padding: 0 1.5em;
+  border-right: 2px solid black;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000376}}
+nav a.current {
+  color: #800000; }
+
+/* the styles for the section */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000381}}
+html {
+  position: relative;
+  z-index: 1;
+    /***
+  width:  1000px;  
+	height:600px;  ***/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\0000395}}
+html::before {
+  content: " ";
+  z-index: -1;
+  position: absolute;
+  background: url(https://dl.dropboxusercontent.com/u/24749588/web-site/images/crownofglory.jpg) center center;
+  /**  background-size: contain; **/
+  opacity: .4;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\00003111}}
+.intro {
+  font-weight: 500;
+  widgth: 65%;
+  margin: 20px;
+  padding: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\00003115}}
+.signature {
+  float: right; }
+
+/* the styles for the footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\00003121}}
+footer {
+  border-top: 3px solid #800000;
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/main\.scss}line{font-family:\00003125}}
+footer p {
+  padding: 1em 0;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

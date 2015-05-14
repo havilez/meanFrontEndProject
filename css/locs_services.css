@@ -1,0 +1,48 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/css\/locs_services\.scss}line{font-family:\000031}}
+article, aside, figure, footer, header, nav, section {
+  display: block; }
+
+/* the styles for the elements */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/css\/locs_services\.scss}line{font-family:\000035}}
+* {
+  margin: 0;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/css\/locs_services\.scss}line{font-family:\000039}}
+caption {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/css\/locs_services\.scss}line{font-family:\0000312}}
+#top_table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/css\/locs_services\.scss}line{font-family:\0000321}}
+#bottom_table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/css\/locs_services\.scss}line{font-family:\0000326}}
+#loc_styles {
+  width: 180px;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: top;
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/css\/locs_services\.scss}line{font-family:\0000333}}
+#loc_maint {
+  width: 180px;
+  margin: 10px;
+  padding: 20px;
+  vertical-align: top;
+  display: inline-block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/css\/locs_services\.scss}line{font-family:\0000339}}
+#loc_color {
+  width: 180px;
+  margin: 10px; }
+
+/*# sourceMappingURL=locs_services.css.map */

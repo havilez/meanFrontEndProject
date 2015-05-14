@@ -1,0 +1,37 @@
+<div>
+		
+			<div  ng-repeat="hairService in salonServices" >
+				<div class="panel panel-default">	
+					<h3 class="panel-title">{{ hairService.type}}</h3>
+
+				<div class="panel-heading">				
+				   <div class="row">
+				   <div class="col-xs-7">
+				   		Service
+				   </div>
+				   <div class="col-xs-5">
+				   		Price
+				   </div>
+				   </div>
+				</div>
+				
+					<div ng-repeat="item in hairService.listing">
+
+						<div class="row">       
+							<div class="col-xs-7">
+							    {{item.name}}
+							 </div>
+							 <div class="col-xs-5">
+							    {{item.price}}
+							 </div>        
+	        			</div>
+					</div>
+					
+			</div>
+			</div>
+	
+		<br/>
+		
+		
+		
+</div>

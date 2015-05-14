@@ -1,0 +1,65 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/locs_contacts\.scss}line{font-family:\000034}}
+html {
+  position: relative;
+  z-index: 1;
+  width: 1000px;
+  height: 550px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/locs_contacts\.scss}line{font-family:\0000317}}
+html::before {
+  content: " ";
+  z-index: -1;
+  position: absolute;
+  background: url(https://dl.dropboxusercontent.com/u/24749588/web-site/images/crownofglory.jpg) center center;
+  opacity: .4;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/locs_contacts\.scss}line{font-family:\0000333}}
+header h1 {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/locs_contacts\.scss}line{font-family:\0000336}}
+header h2 {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/locs_contacts\.scss}line{font-family:\0000339}}
+h3 {
+  border-top: 3px;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/locs_contacts\.scss}line{font-family:\0000344}}
+#loc_logo {
+  width: 80px;
+  height: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/locs_contacts\.scss}line{font-family:\0000349}}
+#map_canvas {
+  width: 450px;
+  height: 350px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/locs_contacts\.scss}line{font-family:\0000357}}
+main {
+  float: left;
+  vertical-align: top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/havilez\/Sites\/Mean-Stack-Dev\/angular-project\/ver2\/styles\/locs_contacts\.scss}line{font-family:\0000366}}
+aside {
+  float: left; }
+
+/*# sourceMappingURL=locs_contacts.css.map */

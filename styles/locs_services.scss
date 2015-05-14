@@ -1,0 +1,43 @@
+article, aside, figure, footer, header, nav, section {
+    display: block;
+}
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+	caption{
+		font-weight: bold;
+	}
+	#top_table
+	{
+	 margin-left: auto;
+    margin-right: auto;
+
+      width: 60%;
+
+
+		}
+	#bottom_table {
+			 margin-left: auto;
+    margin-right: auto;
+      width: 40%;
+	}
+	#loc_styles {
+
+      width:180px; margin: 10px; padding: 20px; 
+      vertical-align: top;
+  
+		  display: inline-block;
+	}
+	#loc_maint {
+ width:180px; margin: 10px; padding: 20px; 
+ vertical-align: top;
+
+		  display: inline-block;
+	}
+	#loc_color {
+width:180px; margin: 10px; 
+
+	}
+	
