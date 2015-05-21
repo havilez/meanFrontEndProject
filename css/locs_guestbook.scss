@@ -1,9 +1,4 @@
-input.ng-invalid {
-  border: 1px soli red;
-}
-
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-}
+form.ng-submitted .ng-invalid {
+  border-color: red;
+  border-width: 2px;
+} 
